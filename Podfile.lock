@@ -1,0 +1,40 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - Realm (10.10.0):
+    - Realm/Headers (= 10.10.0)
+  - Realm/Headers (10.10.0)
+  - RealmSwift (10.10.0):
+    - Realm (= 10.10.0)
+  - SnapKit (5.0.1)
+  - SwiftCharts (0.6.5)
+  - TinyConstraints (4.0.1)
+
+DEPENDENCIES:
+  - Charts
+  - RealmSwift
+  - SnapKit
+  - SwiftCharts (~> 0.6.5)
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - Realm
+    - RealmSwift
+    - SnapKit
+    - SwiftCharts
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  Realm: f501df41a4222c67850c77cf135d472192ecf294
+  RealmSwift: c69aadfc7db0d60075178d037c2f34ada73d5201
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftCharts: 2e755ea292f0b87d3e4b2c1eb5afc080a20cdc15
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+
+PODFILE CHECKSUM: d1f2ce82b039fa6fb441a0c2f6c09156bb57c72f
+
+COCOAPODS: 1.10.1

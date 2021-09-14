@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PaymentCell" rowHeight="117" id="xwG-j2-xUl" customClass="PaymentCell" customModule="Finances" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="117"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xwG-j2-xUl" id="BWn-yi-CTH">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="117"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="qmX-Wc-FSX">
+                        <rect key="frame" x="16" y="12" width="382" height="93"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9a-VV-51V">
+                                <rect key="frame" x="0.0" y="0.0" width="107.5" height="93"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQg-VZ-Cd0">
+                                <rect key="frame" x="137.5" y="0.0" width="107" height="93"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3X-tD-8bC">
+                                <rect key="frame" x="274.5" y="0.0" width="107.5" height="93"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="qmX-Wc-FSX" secondAttribute="bottom" constant="12" id="3nY-rC-UtW"/>
+                    <constraint firstItem="qmX-Wc-FSX" firstAttribute="leading" secondItem="BWn-yi-CTH" secondAttribute="leading" constant="16" id="oQ7-gQ-Qtt"/>
+                    <constraint firstAttribute="trailing" secondItem="qmX-Wc-FSX" secondAttribute="trailing" constant="16" id="pXX-96-ylq"/>
+                    <constraint firstItem="qmX-Wc-FSX" firstAttribute="top" secondItem="BWn-yi-CTH" secondAttribute="top" constant="12" id="qu6-8U-hsc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="BQg-VZ-Cd0" id="0dH-XG-RIE"/>
+                <outlet property="nameLabel" destination="e9a-VV-51V" id="MZA-HQ-HhR"/>
+                <outlet property="sumLabel" destination="A3X-tD-8bC" id="zWy-lo-tUH"/>
+            </connections>
+            <point key="canvasLocation" x="142.02898550724638" y="110.15625"/>
+        </tableViewCell>
+    </objects>
+</document>
