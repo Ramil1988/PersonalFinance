@@ -1,4 +1,4 @@
-# PersonalFinance
+# Personal Finances
 Keep all data about your finance in one App
 
 This app is intended for those, who love to keep all information about personal finances in one place. It is very simple and friendly using App, which contains as much as little screens, as it is supposed to be very convenient for users. Everything is simple in this App: you have the Main screen, where you can see your total Incomes, Expenses, Total Balance (which is difference between your incomes and expenses), your biggest incomes, expenses and respectively the date, when that was occurred. You just need to indicate your incomes, expenses in the coincident screens. The App will remember it, calculate for your convenience and demonstrate it in the screens.
