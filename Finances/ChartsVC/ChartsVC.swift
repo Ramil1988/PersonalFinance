@@ -56,7 +56,7 @@ class ChartsVC: UIViewController, ChartViewDelegate {
         let paymentObjectArray = Array(paymentsObject).exclusiveSort()
 
         let yValues: [ChartDataEntry] = (0..<paymentObjectArray.count).map {
-            ChartDataEntry(x: Double($0), y: Double(paymentObjectArray[$0].sum), data: "Ramil")
+            ChartDataEntry(x: Double($0), y: Double(paymentObjectArray[$0].sum))
         }
         
         let set1 = LineChartDataSet(entries: yValues, label: category?.name)

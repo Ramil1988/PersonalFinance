@@ -99,7 +99,6 @@ extension IncomesVC: UITableViewDataSource {
         action.backgroundColor = .systemRed
         return UISwipeActionsConfiguration(actions: [action])
     }
-    
     //MARK: - PublicMethods
     @objc func refresh(sender: UIRefreshControl) {
         totalIncomes.text = "\(dbManager.getTotalIncome())"
