@@ -44,7 +44,8 @@ class ExpensesVC: UIViewController {
     @IBAction func addExpenseActionBtn() {
         alertEnterExpense { [self] name, sum, date in
             self.addTypeOfExpense(name: name, categoryOfExpense: self.category?.name, sum: sum, date: date, type: .expense)
-            totalAmountOfExpense.text = String(Int(self.totalAmountOfExpense?.text ?? "")! + Int(sum ?? "")!)
+            guard let sum = Int(sum ?? "0") else { return }
+            totalAmountOfExpense.text = String(Int(self.totalAmountOfExpense?.text ?? "")! + Int(sum))
         }
     }
     
