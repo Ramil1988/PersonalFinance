@@ -46,7 +46,6 @@ class ExpensesVC: UIViewController {
             self.addTypeOfExpense(name: name, categoryOfExpense: self.category?.name, sum: sum, date: date, type: .expense)
             guard let sum = Int(sum ?? "0") else { return }
             totalAmountOfExpense.text = String(Int(self.totalAmountOfExpense?.text ?? "")! + Int(sum))
-                           //
         }
     }
     
