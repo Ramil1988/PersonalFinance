@@ -12,4 +12,4 @@ This app is intended for those, who love to keep all information about personal 
 
 <img width="868" alt="Screen Shot 2021-09-14 at 1 27 29 PM" src="https://user-images.githubusercontent.com/78174628/133297073-cb71f936-2d1b-4aa0-ae8b-341024286c52.png">
 
-In the project I used several frameworks: RealmSwift for storing data on your Phone, Charts for displaying the line chart and the frameworks for setting up the constraints of the views. I prefer to use the Interface building for positioning the views on the screens, but recognize that it may be a tricky way.
+In the project I used several frameworks: RealmSwift for storing data on your Phone, Charts for displaying the line chart and the frameworks for setting up the constraints of the views. I prefer to use the Interface building for positioning the views on the screens, but recognize that it may be a tricky way. The App is already available on the App Store https://apps.apple.com/ca/app/personal-finance/id1585724744
